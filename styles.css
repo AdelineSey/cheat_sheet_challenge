@@ -2,13 +2,14 @@
 /* Listed in alphabetical order */
 
 .about-container {
-    background-color: mediumpurple;
+    background-color: #643A71;
     height: fit-content(150%);
     width: 175px;
-    border: solid 4px mediumpurple;
+    border: solid 4px #643A71;
     border-radius: 10px;
     margin-top: 15px;
     text-align: center;
+    position: relative;
 }
 
 .about-container p {
@@ -44,13 +45,58 @@
 }
 
 .header-container {
-    background-color: mediumpurple;
+    background-color: #553160;
     height: fit-content(150%);
     width: fit-content(100%);
-    border: solid 4px mediumpurple;
+    border: solid 4px #553160;
     border-radius: 10px;
+    position: relative;
 }
 
 .html {
     background-color: whitesmoke;
+}
+
+.html-tags-container {
+    background-color: #553160;
+    height: fit-content(150%);
+    width: 1250px;
+    border: solid 4px #553160;
+    border-radius: 10px;
+    position: relative;
+    margin-block: auto;
+    margin-left: 225px;
+}
+
+.html-tags-container h3 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.html-tags-container p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.table-1 {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    border: solid 2px black;
+    margin: auto;
+    width: 1100px;
+}
+
+.thead {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
 }
