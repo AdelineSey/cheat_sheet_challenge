@@ -21,6 +21,7 @@
     height: fit-content(150%);
     width: fit-content(100%);
     border: solid 4px mediumpurple;
+    border-radius: 10px;
 }
 
 .html {
