@@ -1,10 +1,37 @@
 /* Stylesheet for the HTML page */
 /* Listed in alphabetical order */
 
+.about-container {
+    background-color: mediumpurple;
+    height: fit-content(150%);
+    width: 175px;
+    border: solid 4px mediumpurple;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.about-container p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .h1 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
+    text-align: center;
+}
+
+.h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -25,5 +52,5 @@
 }
 
 .html {
-    background-color: white;
+    background-color: whitesmoke;
 }
