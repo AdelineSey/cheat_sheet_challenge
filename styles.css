@@ -65,12 +65,12 @@
 .html-tags-container {
     background-color: #553160;
     height: 510px;
-    width: 1250px;
+    width: 1300px;
     border: solid 4px #553160;
     border-radius: 10px;
     position: relative;
     margin-block: auto;
-    margin-left: 225px;
+    margin-left: 204px;
     position: absolute;
     margin-top: 15px;
 }
@@ -102,22 +102,25 @@
 }
 
 .td {
-    table-layout: auto;
+    border: solid 2.5px #c7a6d1;
+    text-align: match-parent;
+    padding: 10px 10px;
+
 }
 
 .thead {
-    color: black;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     height: 45px;
-    margin: auto;
+    background-color: #c7a6d1;
 }
 
 .tr {
     height: 45px;
     margin: auto;
-    width: fit-content(100%);
+    width: 100%;
 }
    
