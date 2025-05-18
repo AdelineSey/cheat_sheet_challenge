@@ -1,4 +1,5 @@
 /* Stylesheet for the HTML page */
+/* Listed in order of how it appears on the page */
 
 /* HTML Styles */
 .html {
@@ -31,6 +32,23 @@
     font-size: 20px;
     margin-top: -15px;
     text-align: center;
+}
+
+/* Thinking Bubble Container */
+.img-container {
+    position: relative;
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    z-index: 1;
+}
+
+/* Thinking Bubble Image */
+.img-container img {
+    position: absolute;
+    width: 150px;
+    left: 78%;
+    top: -8vh;
 }
 
 /* 'Why a Reference Sheet' Container */
