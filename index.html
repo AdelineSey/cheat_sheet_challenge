@@ -42,25 +42,21 @@
             </thead>
             <!-- Table Body -->
             <tbody class="tbody">
-                <!-- Table Tag -->
                 <tr class="tr">
                     <td class="td">&lt;table&gt;</td>
                     <td class="td">Table</td>
                     <td class="td">Opening bracket for making a table in HTML. All table content must be enclosed in &lt;table&gt; and &lt;/table&gt;.</td>
                 </tr>
-                <!-- Table Head Tag -->
                 <tr class="tr">
                     <td class="td">&lt;thead&gt;</td>
                     <td class="td">Table Head</td>
                     <td class="td">Contains the table head content. Always use &lt;thead&gt; for the header row instead of the &lt;td&gt; tag.</td>
                 </tr>
-                <!-- Table Row Tag -->
                 <tr class="tr">
                     <td class="td">&lt;tr&gt;</td>
                     <td class="td">Table Row</td>
                     <td class="td">Contains all of our table data. You can use as many rows as you'd like, but all rows must have the same amount of data.</td>
                 </tr>
-                <!-- Table Data Tag -->
                 <tr class="tr">
                 `   <td class="td">&lt;td&gt;</td>
                     <td class="td">Table Data</td>
@@ -72,7 +68,52 @@
     </div>
     <!-- CSS Container -->
     <div class="css-container">
-        <h3 class="h3"></h3>
+        <h3 class="h3">CSS: Styling Your Table</h3>
+        <hr>
+        <p class="p">CSS <em>(or cascading style sheets)</em> are what give your project life. Without CSS, your table would look incredibly boring and would consist of black text on a white background. Now, there is nothing wrong with that by any means! But why stick to a plain design when you can let your creativity run free!</p>
+        <hr>
+        <br>
+        <!-- CSS Table -->
+        <table class="table-2">
+            <!-- Table Head -->
+            <thead class="thead">
+                <tr class="tr">
+                    <th class="th">Property</th>
+                    <th class="th">Use With:</th>
+                    <th class="th">Example</th>
+                </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody class="tbody">
+                <tr class="tr">
+                    <td class="td">Table Borders</td>
+                    <td class="td">&lt;table&gt;, &lt;th&gt;, &lt;td&gt;</td>
+                    <td class="td">.th { 1px solid black }</td>
+                </tr>
+                <tr class="tr">
+                    <td class="td">Full-Width Table</td>
+                    <td class="td">&lt;table&gt;</td>
+                    <td class="td">.table { width: 100% }</td>
+                </tr>
+                <tr class="tr">
+                    <td class="td">*Single Table Border</td>
+                    <td class="td">&lt;table&gt;</td>
+                    <td class="td">.table { border-collapse: collapse }</td>
+                </tr>
+                <tr class="tr">
+                    <td class="td">Border Spacing</td>
+                    <td class="td">&lt;table&gt;</td>
+                    <td class="td">.table { border-spacing: 20px }</td>
+                </tr>
+            </tbody>
+        </table>
+        <h5 class="h6">*Used to remove double borders in a table by collapsing the borders into a single border.</h5>
+        <hr>
+        <br>
+        <p>There are way more styling options than just these few that can allow you to change the design of your table. Some of my most commonly used stylings are: color, background-color, margin, padding, font-family, font-size, position, text-align, text-weight, height, and width. </p>
+        <br>
+        <p>My best recommendation - make a basic table and just expirment with different styling on a CSS sheet. See how things change when you add or change different values. Find something you like? Jot it down so you will remember it for a future project!</p>
+        <br>
     </div>
 </body>
 </html>

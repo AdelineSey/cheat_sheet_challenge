@@ -14,9 +14,9 @@
     border: solid 4px #553160;
     border-radius: 10px;
     position: relative;
+    box-shadow: 4px 4px #c7a6d1;
 }
 
-/* Page Header */
 .header h1 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,7 +25,6 @@
     text-shadow: 2.5px 2.5px .5px #c7a6d1;
 }
 
-/* 'Page Subheader */
 .header h4 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,7 +42,6 @@
     z-index: 1;
 }
 
-/* Thinking Bubble Image */
 .img-container img {
     position: absolute;
     width: 150px;
@@ -61,9 +59,9 @@
     margin-top: 10px;
     text-align: center;
     position: relative;
+    box-shadow: 4px 4px #c7a6d1;
 }
 
-/* 'Why a Reference Sheet?' Header */
 .about-container h2 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -73,7 +71,6 @@
     text-shadow: 2.5px 2.5px .5px #c7a6d1;
 }
 
-/* 'Why a Reference Sheet?' Paragraph */
 .about-container p {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -95,9 +92,9 @@
     margin-block: auto;
     position: relative;
     margin-top: 10px;
+    box-shadow: 4px 4px #c7a6d1;
 }
 
-/* 'HTML Tags' Header */
 .html-tags-container h3 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -106,7 +103,6 @@
     text-shadow: 2.5px 2.5px .5px #c7a6d1;
 }
 
-/* 'HTML Tags' Paragraph */
 .html-tags-container p {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -116,7 +112,7 @@
     width: 95%;
 }
 
-/* Table-1 */
+/* HTML Table */
 .table-1 {
     background-color: whitesmoke;
     color: black;
@@ -128,7 +124,6 @@
     margin: auto;
 }
 
-/* HTML Table: Header */
 .table-1 thead {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -139,20 +134,17 @@
     background-color: #c7a6d1;
 }
 
-/* HTML Table: Header Data */
 .table-1 th {
     padding-left: 2px;
     padding-right: 2px;
 }
 
-/* HTML Table: Table Data */
 .table-1 td {
     border: solid 2.5px #c7a6d1;
     text-align: center;
     padding: 10px 10px;
 }
 
-/* HTML Table: Table Rows */
 .table-1 tr {
     height: 45px;
     margin: auto;
@@ -163,4 +155,84 @@
     background-color: #4b2b54; 
     color: white;
 }
-   
+
+/* CSS Container */
+.css-container {
+    background-color: #643A71;
+    height: auto;
+    width: auto;
+    border: solid 4px #553160;
+    border-radius: 10px;
+    margin-block: auto;
+    position: relative;
+    margin-top: 10px;
+    box-shadow: 4px 4px #c7a6d1;
+}
+
+.css-container h3 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2.5px 2.5px .5px #c7a6d1;
+}
+
+.css-container p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+}
+
+.css-container h5 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* CSS Table */
+.table-2 {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    border: solid 4px #c7a6d1;
+    width: 95%;
+    margin: auto;
+}
+
+.table-2 thead {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    height: 45px;
+    background-color: #c7a6d1;
+}
+
+.table-2 th {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.table-2 td {
+    border: solid 2.5px #c7a6d1;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.table-2 tr {
+    height: 45px;
+    margin: auto;
+    width: 100%;
+}
+
+.tbody tr:hover {
+    background-color: #4b2b54; 
+    color: white;
+}
