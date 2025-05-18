@@ -158,4 +158,9 @@
     margin: auto;
     width: 100%;
 }
+
+.tbody tr:hover {
+    background-color: #4b2b54; 
+    color: white;
+}
    
