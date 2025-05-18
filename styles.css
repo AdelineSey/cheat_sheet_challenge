@@ -49,8 +49,8 @@
     top: -8vh;
 }
 
-/* 'Why a Reference Sheet' Container */
-.about-container {
+/* 'All Other Containers */
+.container {
     background-color: #643A71;
     height: auto;
     width: auto;
@@ -62,7 +62,7 @@
     box-shadow: 4px 4px #c7a6d1;
 }
 
-.about-container h2 {
+.container h2 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 27px;
@@ -71,7 +71,7 @@
     text-shadow: 2.5px 2.5px .5px #c7a6d1;
 }
 
-.about-container p {
+.container p {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
@@ -82,20 +82,7 @@
     position: relative;
 }
 
-/* 'HTML Tags' Container */
-.html-tags-container {
-    background-color: #643A71;
-    height: auto;
-    width: auto;
-    border: solid 4px #553160;
-    border-radius: 10px;
-    margin-block: auto;
-    position: relative;
-    margin-top: 10px;
-    box-shadow: 4px 4px #c7a6d1;
-}
-
-.html-tags-container h3 {
+.container h3 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
@@ -103,98 +90,15 @@
     text-shadow: 2.5px 2.5px .5px #c7a6d1;
 }
 
-.html-tags-container p {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-    text-align: center;
-    margin: auto;
-    width: 95%;
-}
-
-/* HTML Table */
-.table-1 {
-    background-color: whitesmoke;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-align: left;
-    border: solid 4px #c7a6d1;
-    width: 95%;
-    margin: auto;
-}
-
-.table-1 thead {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    height: 45px;
-    background-color: #c7a6d1;
-}
-
-.table-1 th {
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-.table-1 td {
-    border: solid 2.5px #c7a6d1;
-    text-align: center;
-    padding: 10px 10px;
-}
-
-.table-1 tr {
-    height: 45px;
-    margin: auto;
-    width: 100%;
-}
-
-.tbody tr:hover {
-    background-color: #4b2b54; 
-    color: white;
-}
-
-/* CSS Container */
-.css-container {
-    background-color: #643A71;
-    height: auto;
-    width: auto;
-    border: solid 4px #553160;
-    border-radius: 10px;
-    margin-block: auto;
-    position: relative;
-    margin-top: 10px;
-    box-shadow: 4px 4px #c7a6d1;
-}
-
-.css-container h3 {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 2.5px 2.5px .5px #c7a6d1;
-}
-
-.css-container p {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-    text-align: center;
-    margin: auto;
-    width: 95%;
-}
-
-.css-container h5 {
+.h5 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     text-align: center;
 }
 
-/* CSS Table */
-.table-2 {
+/* Tables */
+.table {
     background-color: whitesmoke;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -205,7 +109,7 @@
     margin: auto;
 }
 
-.table-2 thead {
+.thead {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -215,18 +119,18 @@
     background-color: #c7a6d1;
 }
 
-.table-2 th {
+.th {
     padding-left: 2px;
     padding-right: 2px;
 }
 
-.table-2 td {
+.td {
     border: solid 2.5px #c7a6d1;
     text-align: center;
     padding: 10px 10px;
 }
 
-.table-2 tr {
+.tr {
     height: 45px;
     margin: auto;
     width: 100%;
